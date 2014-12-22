@@ -112,6 +112,7 @@ body {
   border-radius: 4px;
   padding: 16px 26px;
   line-height: 1.33;
+  cursor: pointer;
 }
 
 .foot {
