@@ -50,20 +50,20 @@ body {
 .masthead-intro {
   margin-bottom: 0.3em;
   font-size: 1.5em;
-  color: #230F2B;
+  color: #F9F2E7;
 }
 
 .masthead-heading {
   margin-top: -0.2em;
   font-weight: bold;
   font-size: 3em;
-  color: #230F2B;
+  color: #F9F2E7;
   text-shadow: 0px 3px 0px #A4BCC2;
 }
 
 /* ABout Section */
 .who-section, .location-section, .questions-section {
-  width: 38em;
+  max-width: 38em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -75,6 +75,9 @@ body {
 }
 
 /* Projects Section */
+.Projects {
+  border-top: solid #81A8B8;
+}
 .project-shots {
   display: inline-block;
   width: 40%;
@@ -100,4 +103,61 @@ body {
 
 .Projects {
   background-color: #C2CBCE;
+}
+
+/* Footer */
+.big-button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+}
+
+.foot {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.socail, a {
+  text-decoration: none;
+  color: #A4BCC2;
+}
+
+.social, ul li:nth-child(1) {
+  position: relative;
+  right: 2.5em;
+}
+
+.social, ul li:nth-child(2) {
+  position: relative;
+  right: 1em;
+}
+
+.social, ul li:nth-child(3) {
+  position: relative;
+  left: 0.5em;
+}
+
+@media only screen and (max-width: 500px) {
+  .foot {
+    padding: 3em 0;
+    font-size: 15px;
+  }
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+
+  .top-navigation {
+    padding: 3em 0;
+    font-size: 11px;
+  }
 }
