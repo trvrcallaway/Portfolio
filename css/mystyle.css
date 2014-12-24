@@ -31,6 +31,8 @@ body {
   cursor: pointer;
   color: #333333;
 }
+
+
 /* Title Section */
 .masthead,
 .masthead-intro,
@@ -76,7 +78,10 @@ body {
 
 /* Projects Section */
 .Projects {
-  border-top: solid #81A8B8;
+  border-top: 5px solid #81A8B8;
+  box-shadow:
+  0 0 0 10px hsl(0, 0%, 80%),
+  0 0 0 15px hsl(0, 0%, 90%);
 }
 .project-shots {
   display: inline-block;
@@ -113,6 +118,17 @@ body {
   padding: 16px 26px;
   line-height: 1.33;
   cursor: pointer;
+}
+
+.big-button:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+
+.big-button:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
 }
 
 .foot {
